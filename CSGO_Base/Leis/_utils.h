@@ -27,7 +27,7 @@ float CalcDistPlayerScreen( Vector2D vSceenPos , Vector2D vPlayerPosSceen );
 
 #define CFG_VERDANA XorStr("Verdana")
 
-#define CFG_LEIS_MESSAGE XorStr("-> CHLENIX HACK V 2.0 <-")
+#define CFG_LEIS_MESSAGE XorStr("=> VAGINIX V 2.2.8 <=")
 
 #define CFG_TRIGGER_ENABLED XorStr("triggerbot: enabled") //0x89,20,0x9CEAEFCE>("\xFD\xF8\xE2\xEB\xEA\xEB\xFD\xF2\xFE\xE6\xA9\xB4\xF0\xF8\xF6\xFA\xF5\xFF\xFF"+0x9CEAEFCE).s
 #define CFG_TRIGGER_DISABLED XorStr("triggerbot: disabled") //0x8D,21,0x8D23B19C>("\xF9\xFC\xE6\xF7\xF6\xF7\xE1\xF6\xFA\xE2\xAD\xB8\xFD\xF3\xE8\xFD\xFF\xF2\xFA\xC4"+0x8D23B19C).s

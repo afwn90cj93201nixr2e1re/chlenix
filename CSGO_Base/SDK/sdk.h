@@ -26,11 +26,11 @@
 #define m_hViewModel 0x32F8
 #define m_fEffects 0xEC
 #define m_iTeamNum 0xF0
-#define m_angEyeAngles 0xA9EC
+#define m_angEyeAngles 0xA9FC
 #define m_iHealth 0xFC
-#define m_ArmorValue 0xA9E8
-#define m_iShotsFired 0xA2B0
-#define m_iCrossHairID 0xAA44
+#define m_ArmorValue 0xA9F8
+#define m_iShotsFired 0xA2C0
+#define m_iCrossHairID 0xAA64
 #define m_lifeState 0x25B
 #define m_fFlags 0x100
 #define m_vecViewOffset 0x104
@@ -38,27 +38,27 @@
 #define m_hActiveWeapon 0x2EE8
 #define m_iFOVStart 0x31D4
 #define m_MoveType 0x258
-#define m_iClip1 0x31F4
+#define m_iClip1 0x3204
 #define m_iItemDefinitionIndex 0x2F88
-#define m_nFallbackPaintKit 0x3168
-#define m_flFallbackWear 0x3170
+#define m_nFallbackPaintKit 0x3170
+#define m_flFallbackWear 0x3178
 #define m_iItemIDHigh 0x2FA0
-#define m_OriginalOwnerXuidHigh 0x3164
-#define m_OriginalOwnerXuidLow 0x3160
+#define m_OriginalOwnerXuidHigh 0x316C
+#define m_OriginalOwnerXuidLow 0x3168
 #define m_iAccountID 0x2FA8
 #define m_iEntityQuality 0x2F8C
 #define m_nModelIndex 0x254
-#define m_hOwner 0x31C0
+#define m_hOwner 0x29BC
 #define m_hWeapon 0x29B8
 #define m_hOwnerEntity 0x148
 
-#define m_nTickBase 0x341C
-#define m_flNextPrimaryAttack 0x31C8
+#define m_nTickBase 0x3420
+#define m_flNextPrimaryAttack 0x31D8
 
-#define m_dwGlowObject 0x04F6ECE4
-#define m_iGlowIndex 0xA310
+#define m_dwGlowObject 0x04FC2D84
+#define m_iGlowIndex 0xA320
 
-#define CSPlayerResource 0x02E9720C
+#define CSPlayerResource 0x02EE9BF4
 #define m_iCompetitiveRanking 0x1A44
 
 #pragma endregion
@@ -1655,7 +1655,7 @@ public:
 class IGameEventManager2 {
 public:
 	bool FireEventClientSide( IGameEvent* pEvent ) {
-		return call_func<bool( __thiscall * )( void* , IGameEvent* )>( this , 8 )( this , pEvent );
+		return call_func<bool( __thiscall * )( void* , IGameEvent* )>( this , 9 )( this , pEvent );
 	}
 };
 
