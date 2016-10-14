@@ -18,12 +18,12 @@
 
 #pragma region OFFSET
 
-#define CSGO_VERSION XorStr("1.35.5.1")
-#define CSGO_CLIENT_VERSION 370
+#define CSGO_VERSION XorStr("1.35.5.4")
+#define CSGO_CLIENT_VERSION 380
 
 #define m_vecOrigin 0x134
 #define m_hMyWeapons 0x2DE8
-#define m_hViewModel 0x32F8
+#define m_hViewModel 0x32FC
 #define m_fEffects 0xEC
 #define m_iTeamNum 0xF0
 #define m_angEyeAngles 0xA9FC
@@ -34,9 +34,9 @@
 #define m_lifeState 0x25B
 #define m_fFlags 0x100
 #define m_vecViewOffset 0x104
-#define m_aimPunchAngle 0x3020
+#define m_aimPunchAngle 0x301C
 #define m_hActiveWeapon 0x2EE8
-#define m_iFOVStart 0x31D4
+#define m_iFOVStart 0x31D8
 #define m_MoveType 0x258
 #define m_iClip1 0x3204
 #define m_iItemDefinitionIndex 0x2F88
@@ -52,13 +52,13 @@
 #define m_hWeapon 0x29B8
 #define m_hOwnerEntity 0x148
 
-#define m_nTickBase 0x3420
+#define m_nTickBase 0x3424
 #define m_flNextPrimaryAttack 0x31D8
 
-#define m_dwGlowObject 0x04FC2D84
+#define m_dwGlowObject 0x4FC5044
 #define m_iGlowIndex 0xA320
 
-#define CSPlayerResource 0x02EE9BF4
+#define CSPlayerResource 0x2EEBE74
 #define m_iCompetitiveRanking 0x1A44
 
 #pragma endregion
