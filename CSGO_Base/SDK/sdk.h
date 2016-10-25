@@ -19,7 +19,7 @@
 #pragma region OFFSET
 
 #define CSGO_VERSION XorStr("1.35.5.4")
-#define CSGO_CLIENT_VERSION 381
+#define CSGO_CLIENT_VERSION 382
 
 #define m_vecOrigin 0x134
 #define m_hMyWeapons 0x2DE8
@@ -48,17 +48,17 @@
 #define m_iAccountID 0x2FA8
 #define m_iEntityQuality 0x2F8C
 #define m_nModelIndex 0x254
-#define m_hOwner 0x29BC
+#define m_hOwner 0x31D0
 #define m_hWeapon 0x29B8
 #define m_hOwnerEntity 0x148
 
 #define m_nTickBase 0x3424
 #define m_flNextPrimaryAttack 0x31D8
 
-#define m_dwGlowObject 0x4FC5054
+#define m_dwGlowObject 0x4FC5004
 #define m_iGlowIndex 0xA320
 
-#define CSPlayerResource 0x2EEBE94
+#define CSPlayerResource 0x2EEBE34
 #define m_iCompetitiveRanking 0x1A44
 
 #pragma endregion
