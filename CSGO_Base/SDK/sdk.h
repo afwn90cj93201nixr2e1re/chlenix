@@ -124,7 +124,7 @@ struct GlowObjectDefinition_t
 #pragma region Interface
 
 #define VENGINE_CLIENT_INTERFACE_VERSION		"VEngineClient014"
-#define CLIENT_DLL_INTERFACE_VERSION			"VClient017"
+#define CLIENT_DLL_INTERFACE_VERSION			"VClient018"
 #define VCLIENTENTITYLIST_INTERFACE_VERSION		"VClientEntityList003"
 #define VGUI_SURFACE_INTERFACE_VERSION			"VGUI_Surface031"
 #define VGUI_PANEL_INTERFACE_VERSION			"VGUI_Panel009"
